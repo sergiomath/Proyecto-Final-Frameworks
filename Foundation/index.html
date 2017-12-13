@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no,initial-scale=1.0">
+    <title>Foundation Blog</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body style="background-image:url(imagenes/italia.jpg);background-attachment: fixed;background-repeat:no-repeat;background-size:100% 100%;">
+    <header style>
+      <div class="row">
+        <div class="small-centered medium-4 column "><img id="comida-logo" src="imagenes/cocina.jpg" width=50q%></div>
+      </div>
+      <div class="row" >
+        <div class="small-12 medium-4 columns">
+          <div class="row">
+              <div class="medium-6 medium-offset-3 column"><img id="comida-slogan" src="imagenes/slogan.jpg" width=100%></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="row" id="columnas-principales">
+        <div  id="primera-columna" class="small-12 medium-4 column">
+          <nav>
+              <div  class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail" id="contenedor-busqueda">
+                      <img id="imagen-busqueda" src="imagenes/busqueda.jpg" width="30vw">
+                    </div>
+                  </div>
+                  <div class="media-object-section">
+                    <input type="text" value="  ....busqueda..."><!--no tengo idea por que placeholder no funciona -->
+                  </div>
+              </div>
+              <ul id class="vertical menu">
+                <li>Inicio</li>
+                <li>Mi plato perfecto</li>
+                <li>Mis recetas</li>
+                <li>Mis favoritos :</li>
+              </ul>
+          </nav>
+          <section>
+            <article id="imagenes-comida"> <!-- Imágenes de platos -->
+                  <div class="row">
+                    <div class="medium-4"><img src="imagenes/plato1.jpg" width=100%></div>
+                    <div class="medium-4"><img src="imagenes/plato2.jpg" width=100%></div>
+                    <div class="medium-4"><img src="imagenes/plato3.jpg" width=100%></div>
+                  </div>
+                  <div class="row">
+                    <div class="medium-4"><img src="imagenes/plato4.jpg" width=100%></div>
+                    <div class="medium-4"><img src="imagenes/plato5.jpg" width=100%></div>
+                    <div class="medium-4"><img src="imagenes/plato6.jpg" width=100%></div>
+                  </div>
+            </article>
+            <article id="historial"><!-- historial de platos -->
+              <div class="row">
+                <div class="medium-12">
+                  <h3>Historial</h3>
+                  <ul class="vertical menu">
+                    <li>Pastas</li>
+                    <li>Platos fuertes</li>
+                    <li>Comidas navideñas</li>
+                    <li>Comidas para cena de navidad</li>
+                    <li>Pavo , ensaldas y algo mas </li>
+                    <li>Comidas rápidas </li>
+                    <li>Lasagna , spaguettis  y Bolognesa</li>
+                  </ul>
+                </div>
+              </div>
+              </article>
+        </div>
+
+        <div id="segunda-columna" class="small-12 medium-7 column">
+            <article>
+              <h1>Pasta a la bolognesa</h1>
+              <h3>12/12/17</h3>
+              <img src="imagenes/bolognesa.jpg" alt="pastaBolognesa">
+              <p>El tomate, la cebolla y la carne picada son los ingredientes principales para la elaboración de la salsa boloñesa, uno de los aderezos procedentes de Italia (en concreto de la región de Bolonia, de ahí su nombre) más utilizados para acompañar a los platos de pasta. No obstante, según la receta es posible encontrar también otros alimentos y especias. Ésta es la manera que nosotros te proponemos para elaborarla.<br/>
+
+              Como ingredientes necesitarás: 300 gramos de carne de añojo picada, una zanahoria, una lata de 1 kg de tomate entero, 1 cebolla y media grande, un diente de ajo, un vasito de vino tinto, una cucharada sopera de orégano, una cucharadita de azúcar, aceite de oliva virgen, sal y pimienta.<br/>
+              <strong>ELABORACIÓN :</strong><br/>
+              <ol>
+                <li>En una cazuela con el fondo de aceite de oliva, freír el diente de ajo con su piel, agregar el tomate y dejar hacer a fuego suave durante 20 minutos.</li>
+                <li>Agregar al final el azúcar, triturar y reservar.</li>
+                <li>Rallar la zanahoria y picar la cebolla.</li>
+                <li>Sofreír en otra cazuela con 3 ó 4 cucharadas soperas de aceite de oliva virgen hasta que adquiera un tono dorado. Agregar la carne picada mezclando bien.</li>
+                <li>  Cuando esté hecha, regar con el vino tinto y añadir el orégano y la salsa de tomate. Dejar hacer 10 minutos más.</li>
+              </ol>
+            </p>
+            <div class="media-object">
+                <div class="media-object-section">
+                  <div class="thumbnail">
+                    <img src="imagenes/imgAvatar.jpg" width="30vw">
+                  </div>
+                </div>
+                <div class="media-object-section">
+                  <textarea name="comentario" rows="2" cols="60" style="border:1px solid black;"></textarea>
+                </div>
+            </div>
+            </article>
+            <article>
+              <h1>Salsa al Pesto</h1>
+              <h3>12/12/17</h3>
+              <img src="imagenes/pesto.jpg" width=100%>
+              <p>lbahaca, aceite de oliva, queso Parmesano y piñones. Son los ingredientes básicos para la elaboración de una salsa de pesto clásica. Con el tiempo, han ido surgiendo distintas variantes (una muy común suele consistir en sustituir los piñones por otros frutos secos. El pistacho, por ejemplo, ofrece resultados sorprendentes y muy sabrosos). Pero la que hoy te ofrecemos en nuestra vídeo-receta semanal es la versión más tradicional, perfecta para acompañar tus platos de pasta.
+              <br/>
+              <h3>Ingredientes:</h3>
+              <br/>
+              <ul>
+                <li>60 g de hojas de albahaca</li>
+                <li>80 g de queso Parmesano</li>
+                <li>40 g de piñones</li>
+                <li>2 dientes de ajo</li>
+                <li>80 ml de aceite de oliva virgen extra</li>
+                <li>Sal gorda y pimienta al gusto</li>
+              </ul><br/>
+              <h3>Preparación:</h3> <br/>
+              <ol>
+                <li>En una sartén tostamos ligeramente los piñones y los reservamos.</li>
+                <li>Pelamos y cortamos los dos dientes de ajo por la mitad.</li>
+                <li>Rallamos el Parmesano.</li>
+                <li>En una picadora picamos los piñones, la albahaca y los ajos.</li>
+                <li>Añadimos el aceite y volvemos a picar.</li>
+                <li>Añadimos el parmesano, mezclamos bien, y salpimentamos al gusto.</li>
+                <li>Ponemos todos los ingredientes en una picadora, salpimentamos al gusto y añadimos el aceite de oliva. Picamos todo bien... ¡y listo!</li>
+              </ol>
+              </p>
+              <div class="media-object">
+                  <div class="media-object-section">
+                    <div class="thumbnail">
+                      <img src="imagenes/imgAvatar2.jpg" width="30vw">
+                    </div>
+                  </div>
+                  <div class="media-object-section">
+                    <textarea name="comentario" rows="2" cols="60" style="border:1px solid black;"></textarea>
+                  </div>
+              </div>
+            </article>
+          </section>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

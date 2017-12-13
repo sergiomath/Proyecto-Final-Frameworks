@@ -1,0 +1,26 @@
+#imagenInicio{
+  background-color: rgba(197, 148, 255, 0.5);
+  border-radius: 80px;
+}
+#cajonBotones{
+  background-color:rgba(197, 148, 255, 0.2  );
+  border-radius: 10px;
+  padding-left:3%;
+}
+#slogan{
+  background-color: rgba(197, 148, 255, 0.2  );
+  border-radius: 20px;
+  font-style:italic;
+  font-size: 300%;
+  text-align: center;
+}
+#col1_img,#col2_img,#col3_img{
+  background-color: rgba(197, 148, 255, 0.4 );
+  border-radius: 20px;
+  padding: 2%;
+}
+#articulos,#autor{
+  background-color: rgba(197, 148, 255, 0.4 );
+  border-radius: 20px;
+  text-align: center;
+}
